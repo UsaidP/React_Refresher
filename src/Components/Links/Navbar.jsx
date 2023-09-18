@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import classes from './Navbar.module.css';
 function Navbar() {
     return ( 
-        <div>
+        <header className={classes.header}>
+            <div className={classes.logo}>MeetUps</div>
             <ul>
             <li>
                     <Link to='/'>All MeetUps</Link>
@@ -14,7 +16,7 @@ function Navbar() {
                     <Link to='/favorites'>Favorites</Link>
                 </li>
             </ul>
-        </div>
+        </header>
      );
 }
 
