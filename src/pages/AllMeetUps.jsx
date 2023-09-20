@@ -5,14 +5,14 @@ const Dummy_Data = [
   {
     id: "n1",
     title: "This is the First meetup",
-    image: "https://picsum.photos/seed/picsum/1500/700",
+    image: "https://picsum.photos/1500/700",
     address: "Mumbai",
     description: "First Amazing Meetup",
   },
   {
     id: "n2",
     title: "This is the Second meetup",
-    image: "https://picsum.photos/seed/picsum/1500/700",
+    image: "https://loremflickr.com/1500/700",
     address: "Navi Mumbai",
     description: "Second Amazing Meetup",
   },
