@@ -1,9 +1,9 @@
-import React, { StrictMode } from "react";
-import { Route, Routes } from "react-router-dom";
-import Favorites from "./pages/favorites";
-import AllMeetUps from "./pages/AllMeetUps";
-import NewMeetUps from "./pages/NewMeetUps";
-import Layout from "./Components/Layouts/Layout";
+import React, { StrictMode } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Favorites from './pages/Favorites';
+import AllMeetUps from './pages/AllMeetUps';
+import NewMeetUps from './pages/NewMeetUps';
+import Layout from './Components/Layouts/Layout';
 
 function App() {
   return (
